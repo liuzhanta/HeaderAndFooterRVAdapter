@@ -1,0 +1,2 @@
+# HeaderAndFooterRVAdapter
+HeaderAndFooterRecyclerViewAdapter
