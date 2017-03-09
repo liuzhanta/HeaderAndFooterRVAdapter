@@ -22,7 +22,7 @@ Usage Xml
 
 ####remove header
         
-        mAdapter.removeHeader();
+    mAdapter.removeHeader();
         
     
 ####add footer
