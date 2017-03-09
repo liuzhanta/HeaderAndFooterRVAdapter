@@ -27,11 +27,11 @@ Usage Xml
     
 ####add footer
      
-     mAdapter.addFooter(R.layout.adapter_item_footer);
+    mAdapter.addFooter(R.layout.adapter_item_footer);
              
 ####remove footer
      
-     mAdapter.removeFooter();
+    mAdapter.removeFooter();
             
 
 
