@@ -12,7 +12,7 @@ include the lib library.
 
 Screen Shot
 -----------
-
+![](https://github.com/liuzhanta/HeaderAndFooterRVAdapter/blob/master/headerAndfooter.gif)
 
 Usage Xml
 ---------
