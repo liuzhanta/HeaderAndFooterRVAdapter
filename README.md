@@ -1,7 +1,5 @@
 # HeaderAndFooterRVAdapter
 HeaderAndFooterRecyclerViewAdapter
-# ItemContainer
-A custom item container to simplify the single section view.
 
 Getting started
 ---------------
