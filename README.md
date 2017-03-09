@@ -14,6 +14,26 @@ Screen Shot
 
 Usage Xml
 ---------
+
+You can use it simply : Use your adapter to extends [BaseRecyclerViewAdapter](https://github.com/liuzhanta/HeaderAndFooterRVAdapter/blob/master/library/src/main/java/com/zterry/headerandfooteradapter_rv/BaseRecyclerViewAdapter.java)
+    
+    public class MyAdapter extends BaseRecyclerViewAdapter<String> {
+    
+        public MyAdapter(Context mContext) {
+            super(mContext);
+        }
+    
+        @Override
+        protected int getLayoutId() {
+            return R.layout.adapter_rv_item;
+        }
+    
+        @Override
+        protected void onBindViewData(RecyclerViewHolder holder, String s, int position) {
+            holder.setText(R.id.tv_name, s);
+        }
+    }
+    
 ####add header
     
     mAdapter.addHeader(R.layout.adapter_item_footerr);
