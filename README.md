@@ -34,20 +34,20 @@ You can use it simply : Use your adapter to extends [BaseRecyclerViewAdapter](ht
         }
     }
     
-####add header
+### add header
     
     mAdapter.addHeader(R.layout.adapter_item_footerr);
 
-####remove header
+### remove header
         
     mAdapter.removeHeader();
         
     
-####add footer
+### add footer
      
     mAdapter.addFooter(R.layout.adapter_item_footer);
              
-####remove footer
+### remove footer
      
     mAdapter.removeFooter();
             
